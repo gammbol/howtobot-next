@@ -4,7 +4,7 @@ import { SocialIcon } from "react-social-icons";
 
 export default function PersonCard(props) {
   return (
-    <div className="rounded-lg bg-[#BDBEBD] p-10 flex flex-col justify-center items-center gap-12 w-64 ">
+    <div className="rounded-lg bg-[#BDBEBD] p-10 flex flex-col justify-center items-center gap-12 w-68 ">
       <div className="md:w-32 md:h-32 w-16 h-16">
         <Image
           src={props.image}
